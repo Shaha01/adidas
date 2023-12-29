@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url(../Rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik Bold';
+    src: url(../Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik Semi Bold';
+    src: url(../Rubik/static/Rubik-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik Light Bold';
+    src: url(../Rubik/static/Rubik-Light.ttf);
+}

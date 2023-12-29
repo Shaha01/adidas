@@ -1,0 +1,45 @@
+@import 'fonts.css';
+
+
+/* **** Root **** */
+:root {
+    --RR: 'Rubik Regular';
+    --RB: 'Rubik Bold';
+    --white: #ffffff;
+    --black: #000000;
+    --R600: 'Rubik Semi Bold';
+    --R300: 'Rubik Light Bold';
+    --dark-blue: #181D28;
+}
+
+.catalog {
+    margin-top: 40px;
+}
+
+.main-catalog__foto {
+    width: 100%;
+}
+
+.catalog-title {
+    color: var(--black);
+    font-family: var(--R600);
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.catalog-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 14px;
+    margin-bottom: 40px;
+}
+
+.catalog-link {
+    color: var(--black);
+    font-family: var(--RR);
+    font-size: 15px;
+    line-height: 18px;
+}
